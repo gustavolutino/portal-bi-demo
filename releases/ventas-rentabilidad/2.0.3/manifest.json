@@ -1,0 +1,47 @@
+{
+  "contractVersion": "1.0",
+  "productId": "ventas-rentabilidad",
+  "version": "2.0.3",
+  "cutoffDate": "2026-09-30",
+  "generatedAt": "2026-10-10T05:41:16.181480Z",
+  "audience": "public",
+  "dataMode": "snapshot",
+  "entrypoint": "index.html",
+  "dataPolicy": {
+    "classification": "synthetic",
+    "approvedForAudience": true
+  },
+  "product": {
+    "contractVersion": "1.0",
+    "id": "ventas-rentabilidad",
+    "title": "Ventas y Rentabilidad",
+    "description": "Evolución YTD y mensual, cumplimiento y año anterior para identificar crecimiento con resultado operativo.",
+    "owner": "Gustavo Lutino | Arquitectura Analítica",
+    "audience": "public",
+    "status": "active",
+    "updateFrequency": "Demo manual; frecuencia real según contrato del cliente"
+  },
+  "files": {
+    "index.html": {
+      "size": 4651,
+      "sha256": "3060e26bddc50e375326eca29e7cf91e08067a03b3d34bf292d4f26b5e46db4f"
+    },
+    "dashboard.js": {
+      "size": 13610,
+      "sha256": "0ee1e269c2824776ae70531a412c30ac8e2eb6c99feb0d5d229b2288fbcb8bba"
+    },
+    "data.json": {
+      "size": 192455,
+      "sha256": "689188d1f72d7fabeb025b4844dfafaa7462e091f48dc65ab9041ae49a41f184"
+    },
+    "dashboard.css": {
+      "size": 9320,
+      "sha256": "91d71c389538b4663f13cb675de3e94f7f5059607c21bdfba84b199ebd1e2e47"
+    },
+    "metrics.js": {
+      "size": 22034,
+      "sha256": "1660231fe4cd34c4a78a619226ad4fa7a9533377f2e457b5ec7ee3f297ae79ed"
+    }
+  },
+  "api": null
+}
