@@ -1,11 +1,19 @@
-# Portal BI — demostración pública
+# Portal BI — Gustavo Lutino
 
-Plataforma de Gustavo Lutino | Arquitectura Analítica.
+[**Abrir Portal BI Personal**](https://gustavolutino.github.io/portal-bi-demo/)
 
-Seis módulos y 50 KPI con datos 100 % ficticios: Ventas y Rentabilidad, Margen, RTM y Zonas, Cliente 360, Inventario y Operaciones, Cuadre y Calidad de Datos.
+Edición visual 3.0: portada animada, identidad de Gustavo Lutino, seis dashboards temáticos, 50 KPI, escenarios y propuesta comercial.
 
-Este repositorio contiene exclusivamente la demostración estática para GitHub Pages. Los repositorios de desarrollo son privados. Los datos, escenarios, scores y oportunidades son ilustrativos. Los planes se cotizan según alcance; no hay cobros ni API productiva.
+## Acceso de demostración
 
-Publicación manual revisada desde la raíz de `main`. La versión pública inicial es 2.0.3, con corte ficticio 30/09/2026. La configuración comercial y los seis dashboards están incluidos.
+Usuario: `admin` · clave: `1234`. El botón **Completar** carga los valores de prueba. Este formulario es una simulación visual en el navegador: no autentica usuarios, no protege recursos públicos y no debe usarse con datos privados. No envía ni almacena contraseñas reales. La demo guarda únicamente el estado de sesión de la pestaña.
 
-No se otorga una licencia de reutilización por la mera disponibilidad pública del repositorio.
+Los datos son 100 % ficticios. Repositorios de desarrollo privados; esta exportación pública solo contiene el frontend y snapshots sintéticos. Los precios son a cotizar. Los microservicios son capacidades planificadas.
+
+## Versión y publicación
+
+Release vigente: 3.0.0. Se conserva 2.0.3 como versión anterior inmutable. Publicación mediante ramas feature y pull request hacia main; GitHub Pages publica la raíz de main por HTTPS.
+
+La animación respeta la preferencia de movimiento reducido y ofrece un control manual. Los filtros y las fórmulas mantienen la lógica de la versión anterior.
+
+© Gustavo Lutino. La disponibilidad pública no otorga una licencia de reutilización.
