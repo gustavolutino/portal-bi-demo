@@ -1,51 +1,21 @@
 {
   "contractVersion": "1.0",
-  "updatedAt": "2026-10-10T05:41:16.181480Z",
+  "updatedAt": "2026-10-10T06:18:02.259460Z",
   "products": [
     {
       "contractVersion": "1.0",
-      "id": "cuadre-calidad",
-      "title": "Cuadre y Calidad de Datos",
-      "description": "Conciliación macro y detalle de excepciones con trazabilidad para evitar decisiones sobre información inconsistente.",
+      "id": "ventas-rentabilidad",
+      "title": "Ventas y Rentabilidad",
+      "description": "Evolución YTD y mensual, cumplimiento y año anterior para identificar crecimiento con resultado operativo.",
       "owner": "Gustavo Lutino | Arquitectura Analítica",
       "audience": "public",
       "status": "active",
       "updateFrequency": "Demo manual; frecuencia real según contrato del cliente",
-      "version": "2.0.3",
+      "version": "3.0.0",
       "cutoffDate": "2026-09-30",
-      "generatedAt": "2026-10-10T05:41:16.181480Z",
+      "generatedAt": "2026-10-10T06:18:02.259460Z",
       "dataMode": "snapshot",
-      "entrypoint": "releases/cuadre-calidad/2.0.3/index.html"
-    },
-    {
-      "contractVersion": "1.0",
-      "id": "inteligencia-clientes-360",
-      "title": "Inteligencia 360 de Clientes",
-      "description": "Valor · Riesgo · Ciclo de Vida · Evolución · Mix Comercial. De la segmentación a acciones de expansión, retención y recuperación.",
-      "owner": "Gustavo Lutino | Arquitectura Analítica",
-      "audience": "public",
-      "status": "active",
-      "updateFrequency": "Demo manual; frecuencia real según contrato del cliente",
-      "version": "2.0.3",
-      "cutoffDate": "2026-09-30",
-      "generatedAt": "2026-10-10T05:41:16.181480Z",
-      "dataMode": "snapshot",
-      "entrypoint": "releases/inteligencia-clientes-360/2.0.3/index.html"
-    },
-    {
-      "contractVersion": "1.0",
-      "id": "inventario-operaciones",
-      "title": "Inventario y Operaciones",
-      "description": "Stock, rotación, cobertura, quiebres, vencimientos y picking para mejorar disponibilidad y capital de trabajo.",
-      "owner": "Gustavo Lutino | Arquitectura Analítica",
-      "audience": "public",
-      "status": "active",
-      "updateFrequency": "Demo manual; frecuencia real según contrato del cliente",
-      "version": "2.0.3",
-      "cutoffDate": "2026-09-30",
-      "generatedAt": "2026-10-10T05:41:16.181480Z",
-      "dataMode": "snapshot",
-      "entrypoint": "releases/inventario-operaciones/2.0.3/index.html"
+      "entrypoint": "releases/ventas-rentabilidad/3.0.0/index.html"
     },
     {
       "contractVersion": "1.0",
@@ -56,11 +26,11 @@
       "audience": "public",
       "status": "active",
       "updateFrequency": "Demo manual; frecuencia real según contrato del cliente",
-      "version": "2.0.3",
+      "version": "3.0.0",
       "cutoffDate": "2026-09-30",
-      "generatedAt": "2026-10-10T05:41:16.181480Z",
+      "generatedAt": "2026-10-10T06:18:02.259460Z",
       "dataMode": "snapshot",
-      "entrypoint": "releases/margen-comercial/2.0.3/index.html"
+      "entrypoint": "releases/margen-comercial/3.0.0/index.html"
     },
     {
       "contractVersion": "1.0",
@@ -71,26 +41,56 @@
       "audience": "public",
       "status": "active",
       "updateFrequency": "Demo manual; frecuencia real según contrato del cliente",
-      "version": "2.0.3",
+      "version": "3.0.0",
       "cutoffDate": "2026-09-30",
-      "generatedAt": "2026-10-10T05:41:16.181480Z",
+      "generatedAt": "2026-10-10T06:18:02.259460Z",
       "dataMode": "snapshot",
-      "entrypoint": "releases/rtm-zonas/2.0.3/index.html"
+      "entrypoint": "releases/rtm-zonas/3.0.0/index.html"
     },
     {
       "contractVersion": "1.0",
-      "id": "ventas-rentabilidad",
-      "title": "Ventas y Rentabilidad",
-      "description": "Evolución YTD y mensual, cumplimiento y año anterior para identificar crecimiento con resultado operativo.",
+      "id": "inteligencia-clientes-360",
+      "title": "Inteligencia 360 de Clientes",
+      "description": "Valor · Riesgo · Ciclo de Vida · Evolución · Mix Comercial. De la segmentación a acciones de expansión, retención y recuperación.",
       "owner": "Gustavo Lutino | Arquitectura Analítica",
       "audience": "public",
       "status": "active",
       "updateFrequency": "Demo manual; frecuencia real según contrato del cliente",
-      "version": "2.0.3",
+      "version": "3.0.0",
       "cutoffDate": "2026-09-30",
-      "generatedAt": "2026-10-10T05:41:16.181480Z",
+      "generatedAt": "2026-10-10T06:18:02.259460Z",
       "dataMode": "snapshot",
-      "entrypoint": "releases/ventas-rentabilidad/2.0.3/index.html"
+      "entrypoint": "releases/inteligencia-clientes-360/3.0.0/index.html"
+    },
+    {
+      "contractVersion": "1.0",
+      "id": "inventario-operaciones",
+      "title": "Inventario y Operaciones",
+      "description": "Stock, rotación, cobertura, quiebres, vencimientos y picking para mejorar disponibilidad y capital de trabajo.",
+      "owner": "Gustavo Lutino | Arquitectura Analítica",
+      "audience": "public",
+      "status": "active",
+      "updateFrequency": "Demo manual; frecuencia real según contrato del cliente",
+      "version": "3.0.0",
+      "cutoffDate": "2026-09-30",
+      "generatedAt": "2026-10-10T06:18:02.259460Z",
+      "dataMode": "snapshot",
+      "entrypoint": "releases/inventario-operaciones/3.0.0/index.html"
+    },
+    {
+      "contractVersion": "1.0",
+      "id": "cuadre-calidad",
+      "title": "Cuadre y Calidad de Datos",
+      "description": "Conciliación macro y detalle de excepciones con trazabilidad para evitar decisiones sobre información inconsistente.",
+      "owner": "Gustavo Lutino | Arquitectura Analítica",
+      "audience": "public",
+      "status": "active",
+      "updateFrequency": "Demo manual; frecuencia real según contrato del cliente",
+      "version": "3.0.0",
+      "cutoffDate": "2026-09-30",
+      "generatedAt": "2026-10-10T06:18:02.259460Z",
+      "dataMode": "snapshot",
+      "entrypoint": "releases/cuadre-calidad/3.0.0/index.html"
     }
   ]
 }
