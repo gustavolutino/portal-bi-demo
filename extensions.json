@@ -1,0 +1,60 @@
+{
+  "contractVersion": "1.0",
+  "status": "design-only",
+  "services": [
+    {
+      "id": "recomendador",
+      "name": "Recomendación de productos",
+      "type": "api",
+      "status": "planned",
+      "auth": "managed-identity",
+      "endpoint": null,
+      "purpose": "Priorizar productos compatibles con el cliente, disponibilidad y margen."
+    },
+    {
+      "id": "pronostico",
+      "name": "Pronóstico de demanda",
+      "type": "api",
+      "status": "planned",
+      "auth": "managed-identity",
+      "endpoint": null,
+      "purpose": "Apoyar compras y reposición mediante escenarios y validación temporal."
+    },
+    {
+      "id": "precios",
+      "name": "Inteligencia de precios y elasticidad",
+      "type": "api",
+      "status": "planned",
+      "auth": "managed-identity",
+      "endpoint": null,
+      "purpose": "Estudiar sensibilidad precio-volumen con datos propios autorizados."
+    },
+    {
+      "id": "calidad",
+      "name": "Servicio de validación de datos",
+      "type": "api",
+      "status": "planned",
+      "auth": "managed-identity",
+      "endpoint": null,
+      "purpose": "Validar calidad y emitir resultados verificables antes de publicar."
+    },
+    {
+      "id": "acciones",
+      "name": "Seguimiento de acciones y resultados",
+      "type": "api",
+      "status": "planned",
+      "auth": "managed-identity",
+      "endpoint": null,
+      "purpose": "Persistir tareas por cliente, atribución, costos y resultado observado."
+    },
+    {
+      "id": "asistente",
+      "name": "Asistente analítico conversacional",
+      "type": "api",
+      "status": "planned",
+      "auth": "managed-identity",
+      "endpoint": null,
+      "purpose": "Responder preguntas sobre indicadores y permisos del usuario sin exponer datos fuera de su alcance."
+    }
+  ]
+}

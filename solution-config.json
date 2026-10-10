@@ -1,0 +1,81 @@
+{
+  "configVersion": "1.0",
+  "brand": "Gustavo Lutino | Arquitectura Analítica",
+  "platform": "Portal BI",
+  "pricing": {
+    "status": "draft",
+    "currency": "BOB",
+    "cadence": "annual",
+    "implementation": "A cotizar según fuentes, integración y alcance",
+    "notes": [
+      "Los planes son una propuesta comercial editable; los importes no han sido confirmados.",
+      "Usuarios incluidos son un alcance contractual propuesto, no un límite técnico implementado en esta demo.",
+      "Implementación inicial, modelos avanzados, microservicios y ampliaciones se cotizan por separado.",
+      "Frecuencia, soporte, infraestructura y responsabilidades se acuerdan en la propuesta del cliente."
+    ],
+    "plans": [
+      {
+        "id": "inicial",
+        "name": "Inicial",
+        "users": 5,
+        "modules": 2,
+        "annualPrice": null,
+        "purpose": "Empezar con un problema prioritario y una solución acotada."
+      },
+      {
+        "id": "profesional",
+        "name": "Profesional",
+        "users": 15,
+        "modules": 4,
+        "annualPrice": null,
+        "purpose": "Conectar lectura comercial, clientes y operación."
+      },
+      {
+        "id": "a-medida",
+        "name": "Inteligencia a medida",
+        "users": null,
+        "modules": 6,
+        "annualPrice": null,
+        "purpose": "Analítica avanzada y servicios específicos para el negocio."
+      }
+    ]
+  },
+  "moduleBenefits": {
+    "ventas-rentabilidad": {
+      "category": "Comercial",
+      "icon": "↗",
+      "kpis": "YTD · MTD · Meta · Año anterior",
+      "value": "Priorizar crecimiento con resultado"
+    },
+    "margen-comercial": {
+      "category": "Comercial",
+      "icon": "%",
+      "kpis": "Margen bruto · Operativo · Descuento",
+      "value": "Proteger y recuperar rentabilidad"
+    },
+    "rtm-zonas": {
+      "category": "Operaciones",
+      "icon": "◎",
+      "kpis": "Cobertura · Visitas · Efectividad",
+      "value": "Optimizar ejecución por zona"
+    },
+    "inteligencia-clientes-360": {
+      "category": "Clientes",
+      "icon": "360",
+      "kpis": "RFM · Riesgo · Potencial · Acción",
+      "value": "Expandir, retener y recuperar valor"
+    },
+    "inventario-operaciones": {
+      "category": "Operaciones",
+      "icon": "▦",
+      "kpis": "Stock · Rotación · Cobertura · Picking",
+      "value": "Mejorar disponibilidad y capital"
+    },
+    "cuadre-calidad": {
+      "category": "Gobierno",
+      "icon": "✓",
+      "kpis": "Cuadre · Excepciones · Trazabilidad",
+      "value": "Construir confianza en las cifras"
+    }
+  }
+}
