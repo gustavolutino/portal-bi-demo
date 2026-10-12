@@ -1,84 +1,84 @@
 {
-  "version": "4.0.0",
+  "version": "4.0.1",
   "client": "AGROMATIC",
   "synthetic": true,
   "cutoff": "2026-09-30",
   "files": {
     "metrics.js": {
-      "sha256": "ffaafc68e54ee1a0b519a2de9cc8d1b1051b6b0867f3fed02005819d21e28280",
-      "size": 20172
+      "size": 20172,
+      "sha256": "ffaafc68e54ee1a0b519a2de9cc8d1b1051b6b0867f3fed02005819d21e28280"
     },
     "dashboard.html": {
-      "sha256": "c139589f5fc142386785a300b7388432073ad683b62bb7b37dc98606f0e70bdf",
-      "size": 5459
+      "size": 5463,
+      "sha256": "4e2b11dfa3772d76673bed09d8d2f807c73f122c64e8770f95d75d70366f1a9d"
     },
     "agromatic.css": {
-      "sha256": "2a8782ad5ad152e445f7c9152d18983ba453ba721aec9c398c45e28621e9343e",
-      "size": 21755
+      "size": 21755,
+      "sha256": "2a8782ad5ad152e445f7c9152d18983ba453ba721aec9c398c45e28621e9343e"
     },
     "app.js": {
-      "sha256": "ea4fb8b481882a19e3ad9e0d629502e3b24d8d802788a3889527a2c780bf25f7",
-      "size": 17453
+      "size": 17465,
+      "sha256": "3762e64a864fc08f87919499b1fd5bd224894ca0019d1569c49f38c4989c889f"
     },
     "index.html": {
-      "sha256": "4412407348e2a40a1f0634da48a7a803bb48347e430c185fe5b4db146941e752",
-      "size": 3090
+      "size": 3094,
+      "sha256": "424f4a03a69b00a75815b7fcbfd49e6892e1cc42877442a77f876d3f31c6a2d6"
     },
     "client-config.json": {
-      "sha256": "10c2323f743024bc4f907968782dc16dd401c19f68bbc1044f8c34ab1d35f5df",
-      "size": 9421
+      "size": 9421,
+      "sha256": "10c2323f743024bc4f907968782dc16dd401c19f68bbc1044f8c34ab1d35f5df"
     },
     "data.json": {
-      "sha256": "a5720ee7aa8f13b39de57e586a7ccf88072e9218d46a610a394b0a6e669dcf19",
-      "size": 356780
+      "size": 356780,
+      "sha256": "a5720ee7aa8f13b39de57e586a7ccf88072e9218d46a610a394b0a6e669dcf19"
     },
     "README.md": {
-      "sha256": "1f8e1b34a0899974b73ff04219331007270651e344eae12db6dc68ae31833300",
-      "size": 5016
+      "size": 5016,
+      "sha256": "1f8e1b34a0899974b73ff04219331007270651e344eae12db6dc68ae31833300"
     },
     "precios.html": {
-      "sha256": "ccf46c0574a9b7216fea65db2634b5f7133a78facabfa807aa298cedf058fdda",
-      "size": 2047
+      "size": 2051,
+      "sha256": "25ff6e85580a112f7771a769777d45695ee29944c9e32ffecdd3ad783151b9ea"
     },
     "proyectos.html": {
-      "sha256": "b342247b5063430b6d9f514c9fb489202733d886a6fb4d98ab83f6759dfa9b9b",
-      "size": 2049
+      "size": 2053,
+      "sha256": "194c64ec8bb9461964fca8715cf3799a8b8e8ac85b171b9b5e57bb02e2b2b7dd"
     },
     "tests/metrics.cjs": {
-      "sha256": "6a9501a08cc33cb280c0b49dbe5c6c7c049be7abe737757be43cb5fd3a6dde9e",
-      "size": 3389
+      "size": 3389,
+      "sha256": "6a9501a08cc33cb280c0b49dbe5c6c7c049be7abe737757be43cb5fd3a6dde9e"
     },
     "assets/agromatic-logo.png": {
-      "sha256": "efb85f810da6a926b614a454d758683517e2790919560428799bb82c2e2098f5",
-      "size": 5195
+      "size": 5195,
+      "sha256": "efb85f810da6a926b614a454d758683517e2790919560428799bb82c2e2098f5"
     },
     "projects/inventario/product.json": {
-      "sha256": "c4450a26307c175c511f8b5b1acee43e7d2419b293f4b0f0718516595fd0f4af",
-      "size": 2167
+      "size": 2167,
+      "sha256": "c4450a26307c175c511f8b5b1acee43e7d2419b293f4b0f0718516595fd0f4af"
     },
     "projects/gerencia/product.json": {
-      "sha256": "9c502cd23600563673f62c27d6725d213609ba606d555e94abbb1887ff22c88d",
-      "size": 1734
+      "size": 1734,
+      "sha256": "9c502cd23600563673f62c27d6725d213609ba606d555e94abbb1887ff22c88d"
     },
     "projects/calidad/product.json": {
-      "sha256": "00df23427b852ef794b846bd2331a4e2365576eac9027f18fbb2fceae9e75c33",
-      "size": 2141
+      "size": 2141,
+      "sha256": "00df23427b852ef794b846bd2331a4e2365576eac9027f18fbb2fceae9e75c33"
     },
     "projects/rtm/product.json": {
-      "sha256": "e24695c5b4cc551265a8df826d1d82657b77de251a644a38553fee04152a7b85",
-      "size": 2125
+      "size": 2125,
+      "sha256": "e24695c5b4cc551265a8df826d1d82657b77de251a644a38553fee04152a7b85"
     },
     "projects/margen/product.json": {
-      "sha256": "f20517ea186fe0fc14672ca3e2bdc46280ba8a3f64ecf8b4bcdeb60c62dd0c7e",
-      "size": 2056
+      "size": 2056,
+      "sha256": "f20517ea186fe0fc14672ca3e2bdc46280ba8a3f64ecf8b4bcdeb60c62dd0c7e"
     },
     "projects/clientes/product.json": {
-      "sha256": "37eba850d8cf984821afa09e2ab4690bcf26b30336634ac1fc82b3e85f80e870",
-      "size": 2035
+      "size": 2035,
+      "sha256": "37eba850d8cf984821afa09e2ab4690bcf26b30336634ac1fc82b3e85f80e870"
     },
     "projects/ventas/product.json": {
-      "sha256": "38781adaf979e290d305ca0cfff9382c37719196ea182b88e9e6456b39254ff4",
-      "size": 1916
+      "size": 1916,
+      "sha256": "38781adaf979e290d305ca0cfff9382c37719196ea182b88e9e6456b39254ff4"
     }
   }
 }
