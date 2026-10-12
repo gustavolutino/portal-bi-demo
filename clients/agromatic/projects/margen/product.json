@@ -1,0 +1,63 @@
+{
+  "id": "margen",
+  "number": "06",
+  "title": "Margen & Precios",
+  "tagline": "Crecer con rentabilidad.",
+  "description": "Margen ponderado, descuentos y oportunidades de revisión de precios.",
+  "phase": "Evolución propuesta",
+  "color": "#52627d",
+  "client": "AGROMATIC",
+  "owner": "Gustavo Lutino | Arquitectura Analítica",
+  "version": "4.0.0",
+  "entrypoint": "../../dashboard.html?module=margen",
+  "dataMode": "synthetic",
+  "kpis": [
+    {
+      "label": "Margen bruto",
+      "type": "money",
+      "definition": "Ventas netas menos costo de mercadería"
+    },
+    {
+      "label": "Margen bruto ponderado",
+      "type": "percent",
+      "definition": "Ratio de sumas; no promedio de márgenes"
+    },
+    {
+      "label": "Descuentos concedidos",
+      "type": "money",
+      "definition": "Importe descontado de venta bruta"
+    },
+    {
+      "label": "Tasa de descuento",
+      "type": "percent",
+      "definition": "Descuento / importe bruto"
+    },
+    {
+      "label": "Ventas bajo margen objetivo",
+      "type": "money",
+      "definition": "Venta con margen inferior a 25 % demo"
+    },
+    {
+      "label": "Brecha de margen",
+      "type": "money",
+      "definition": "Déficit al objetivo sobre venta neta actual"
+    },
+    {
+      "label": "Margen por pedido",
+      "type": "money",
+      "definition": "Margen bruto / pedidos"
+    },
+    {
+      "label": "Margen tras costo de ruta",
+      "type": "money",
+      "definition": "Contribución parcial; excluye otros gastos e impuestos"
+    }
+  ],
+  "method": [
+    "Margen bruto = neto menos costo. La contribución tras ruta no equivale a resultado operativo ni utilidad neta.",
+    "Objetivo demo de margen: 25 %. Debe acordarse por familia con gerencia.",
+    "La brecha es el déficit al objetivo sobre venta neta actual. No es aumento de precio necesario ni ingreso garantizado.",
+    "Inteligencia de precios y demanda queda como evolución: requiere históricos de cotizaciones, costos, disponibilidad y campañas."
+  ],
+  "sharedEngine": "../../metrics.js"
+}

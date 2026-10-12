@@ -1,0 +1,63 @@
+{
+  "id": "clientes",
+  "number": "04",
+  "title": "Clientes 360",
+  "tagline": "Conocer. Retener. Reactivar.",
+  "description": "Cartera comercial, recompra, clientes sin compra y deuda vencida.",
+  "phase": "Evolución propuesta",
+  "color": "#527347",
+  "client": "AGROMATIC",
+  "owner": "Gustavo Lutino | Arquitectura Analítica",
+  "version": "4.0.0",
+  "entrypoint": "../../dashboard.html?module=clientes",
+  "dataMode": "synthetic",
+  "kpis": [
+    {
+      "label": "Cartera asignada",
+      "type": "number",
+      "definition": "Incluye clientes sin venta"
+    },
+    {
+      "label": "Clientes compradores",
+      "type": "number",
+      "definition": "Clientes con pedido en el mes"
+    },
+    {
+      "label": "Penetración comercial",
+      "type": "percent",
+      "definition": "Compradores / cartera asignada"
+    },
+    {
+      "label": "Sin compra en el mes",
+      "type": "number",
+      "definition": "Asignados menos compradores"
+    },
+    {
+      "label": "Retención mensual",
+      "type": "percent",
+      "definition": "Compradores del mes previo que repiten; enero sin base"
+    },
+    {
+      "label": "Saldo por cobrar",
+      "type": "money",
+      "definition": "Saldo simulado al corte, no flujo acumulado"
+    },
+    {
+      "label": "Cartera vencida",
+      "type": "money",
+      "definition": "Parte vencida del saldo por cobrar"
+    },
+    {
+      "label": "Riesgo de mora",
+      "type": "percent",
+      "definition": "Saldo vencido / saldo total"
+    }
+  ],
+  "method": [
+    "La cartera parte de clientes asignados, no solo de ventas. Así se conservan los clientes sin compra.",
+    "Retención mensual = clientes compradores en ambos meses / compradores del mes anterior. Enero no dispone de base previa.",
+    "Estados y acciones se basan en reglas. No son un modelo predictivo entrenado. La estacionalidad agrícola requiere validar umbrales por familia y campaña.",
+    "La deuda es una foto al corte. Nunca se suman saldos de varios meses."
+  ],
+  "sharedEngine": "../../metrics.js"
+}

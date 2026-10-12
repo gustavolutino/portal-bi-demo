@@ -1,0 +1,63 @@
+{
+  "id": "calidad",
+  "number": "07",
+  "title": "Cuadre & Calidad",
+  "tagline": "Confiar antes de decidir.",
+  "description": "Conciliación de cifras, trazabilidad y excepciones que requieren revisión.",
+  "phase": "Control transversal",
+  "color": "#346e71",
+  "client": "AGROMATIC",
+  "owner": "Gustavo Lutino | Arquitectura Analítica",
+  "version": "4.0.0",
+  "entrypoint": "../../dashboard.html?module=calidad",
+  "dataMode": "synthetic",
+  "kpis": [
+    {
+      "label": "Registros evaluados",
+      "type": "number",
+      "definition": "Lote sintético independiente de controles"
+    },
+    {
+      "label": "Registros conformes",
+      "type": "percent",
+      "definition": "Registros sin excepción / evaluados"
+    },
+    {
+      "label": "Campos clave faltantes",
+      "type": "number",
+      "definition": "Registros sin clave obligatoria"
+    },
+    {
+      "label": "Duplicados",
+      "type": "number",
+      "definition": "Registros excedentes por clave demo"
+    },
+    {
+      "label": "Diferencias de conciliación",
+      "type": "number",
+      "definition": "Registros con diferencia de importe"
+    },
+    {
+      "label": "Descuadre monetario",
+      "type": "money",
+      "definition": "Importe fuente menos importe publicado de control"
+    },
+    {
+      "label": "Importe de referencia",
+      "type": "money",
+      "definition": "Referencia derivada de venta neta mensual"
+    },
+    {
+      "label": "Mayor demora del lote",
+      "type": "hours",
+      "definition": "Horas ficticias de retraso; no monitoreo en vivo"
+    }
+  ],
+  "method": [
+    "Lote de control ficticio, separado de la fact comercial. Sus excepciones fueron introducidas para mostrar el proceso de revisión.",
+    "Las categorías son disjuntas en esta demo; conformes = evaluados menos claves faltantes, duplicados y diferencias.",
+    "La referencia monetaria utiliza las ventas del mes. El publicado de control resta diferencias simuladas; no altera los dashboards de negocio.",
+    "Las reglas de bloqueo, tolerancias y responsables se acuerdan antes de conectar fuentes reales."
+  ],
+  "sharedEngine": "../../metrics.js"
+}

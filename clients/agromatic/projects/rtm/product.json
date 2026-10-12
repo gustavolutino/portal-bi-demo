@@ -1,0 +1,63 @@
+{
+  "id": "rtm",
+  "number": "01",
+  "title": "RTM & Territorio",
+  "tagline": "Llegar mejor. Vender mejor.",
+  "description": "Visitas, frecuencia, cobertura y carga de vendedores para priorizar la ejecución comercial.",
+  "phase": "Prioridad inicial",
+  "color": "#1e3875",
+  "client": "AGROMATIC",
+  "owner": "Gustavo Lutino | Arquitectura Analítica",
+  "version": "4.0.0",
+  "entrypoint": "../../dashboard.html?module=rtm",
+  "dataMode": "synthetic",
+  "kpis": [
+    {
+      "label": "Visitas planificadas",
+      "type": "number",
+      "definition": "Suma de visitas previstas en el mes"
+    },
+    {
+      "label": "Visitas realizadas",
+      "type": "number",
+      "definition": "Atenciones reportadas; no posición en vivo"
+    },
+    {
+      "label": "Cumplimiento de visitas",
+      "type": "percent",
+      "definition": "Realizadas / planificadas"
+    },
+    {
+      "label": "Conversión visita → pedido",
+      "type": "percent",
+      "definition": "Pedidos / visitas; máximo uno por visita en esta demo"
+    },
+    {
+      "label": "Cobertura de cartera",
+      "type": "percent",
+      "definition": "Clientes visitados / cartera asignada"
+    },
+    {
+      "label": "Frecuencia de atención",
+      "type": "decimal",
+      "definition": "Visitas por cliente asignado en el mes"
+    },
+    {
+      "label": "Carga planificada",
+      "type": "percent",
+      "definition": "Visitas previstas / capacidad mensual disponible"
+    },
+    {
+      "label": "Costo por visita",
+      "type": "money",
+      "definition": "Costo ilustrativo de ruta / visitas"
+    }
+  ],
+  "method": [
+    "La prioridad inicial es ordenar la ejecución comercial: agenda, pedidos, cobertura y carga de vendedores.",
+    "La cartera asignada incluye clientes sin compra. Cobertura mide atención, no venta ni cobertura total del mercado.",
+    "La capacidad, costos, territorios y motivos son simulados. Se deben validar con la operación antes del piloto.",
+    "Las tarjetas territoriales son un esquema comparativo. No representan GPS, una ruta óptima ni ubicaciones reales."
+  ],
+  "sharedEngine": "../../metrics.js"
+}

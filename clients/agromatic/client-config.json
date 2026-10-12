@@ -1,0 +1,79 @@
+{
+  "client": "AGROMATIC",
+  "owner": "Gustavo Lutino | Arquitectura Analítica",
+  "version": "4.0.0",
+  "cutoff": "2026-09-30",
+  "dataMode": "synthetic",
+  "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAD2CAMAAABbcUq6AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAALRQTFRFR3BMHzt0Hzt0Hzt0Hzt0Hzt0Hzt0Hzt0Hzt0Hzt0Hzt0Hzt0Hzt0Hzt0Hzt0Hzt0/+sB/+sB/+sB/+sB/+sB/+sB/+sB/+sB/+sB/+sB/+sB/+sB/+sB/+sB/+sB0cYznZtMVGJl5dUksKtE8N8aUWBmx705lJVQX2ti3M4s3M4s/+sBHzt0lJVQysA3MEZwXGhj8eAZeX9aP1Js2MsusKtETV1o5dUkop9KhopUa3RfvLU9uNKMCAAAACt0Uk5TAN8gnxDvMECAv2DPj3BQrxC/74BA32AgnzDPcK9Qj9/P34CA7+/vgO9gvwFFCx0AABL2SURBVHja7J1pe7K+EsYVURb33Vbbs6+giLv2+3+vo0IgCZMF7f9cJDCvnqe2VH+9EyYzd0KtVkUVVVRRRRVVVFFFFVVUUUUVRYvBx7tXMCzLMsvB6tMbvMHJ7Tj+PZpGSVh54xd/ttVp+3F0SyGshed5o8FLpJp+Ek4pWH15j8gtLbNb9/EoxyAcPWHllJaBi+oRjVII69vzckvLaPh0tMrAahKzyiEt025mWNVLIawhguUtJX/CqvvZ6JSB1Sxh5U3lZNXxobDKAGuawvJmMtlCG2Tll4HVEmMlI60WfQ9sl2fKitMGaWm5JCqnVy9RRjomWAml1SJQNXtus0TzOyUskbQMYgz2zW76H7tkM5ZYWsTc3q3hiWkJYE1pWN6E8902PgRbBKsSwJplWHlDToKFDcI2xcrvlVBYPGlhwmqbFCv9c9IJwIojrSaHlf6wVhAsprR66ZrZrHXKttqZg6yY0rKxud0t3dLwG4bFkpaTzuWt8i0NRwxYK36SZdfMeulgzTxWzMHvR5N7rdbPstJ9aThkwlrwYLWwmb40pb+55+WTVh0NwiYAS/Oc9JsDa8Gc4KGs4XGDLGH2zpXWE5JbM/zyjcIPHitQWm5UD21AwtLcEbLgwoKkZT7LMqCwdDc5jPiwoIZr/6EgG2Cley/6iwEp3Gw2Z0bDtfegUuewaln3aJVmFB6D58c/7S5/g5IHaKHTdB8vWbZT11Zn8L0wDDAIjUzu1Kpl84aGUTPdvtYzGONeuKFE0zGYq+moVnP/hlZD96UPIyNdZ9d8FrjmeZB07LvSWo6vvUXkE4Z1BW51Dj5jG5HgXCtiaDZK0MlnrQu34GfvpCmn9RBOMjZ7Tdj2oFeKOuPC2q+3AdV5xmElA5OWVbvT0LFquuLCut7/dbjuobWf9axnRUOQ6Lg2G64ZsdQO1ogLax3957ALiN5XDCtOowjnUdtNXtYOFnMRHcHaof/+HXNDNlsxjaj1jDuP0jumjrCWfFjb1CaCufyetFpxFoWNwTaGRkdYK1lYU3y4PWnVI1jpF4l03dLwbsis+0V51p50IOH9wjsOp4YtetrkstnWL89iV9/jDJ5quCbp1GMjk+0kAsqumTv61Zi/mLB+IgYbquGazOb3e6LZT8s0XXjlqNXacMyEdYggXOhefjKf36XUS8alm7myhgV5dsPQizKrW6aXn/Sge6lNywWqg4wXNExJ73GLPm6YsYmgkVhPDMuA1a+j3+4wXnf1En3cY9YmYiVjLxqSfeDKTf0qNBMOrLNPZVqpAymeqfotZNFijUKtpqwxr6tzytwPPbTVPJ7ku8wk3dFwKx2vb4/G4RZouMa9iiarKWHpWCcd8mChlsUGaLg2+Dt82zq2K7gmB5TE78OstAxuV9XWspPPb0Ujae0AaTkcYbW03Dww58NKOjzHrLTc1PxHB8patZmxJsLM4Rn7LK1YWiazi5qsh3Qxtc3GcrAOfobWQpAc4GtHTSb2sTjNIlutF3pfPqNelRQI27rM7st44SKG5e0QrV1IOpBcsAST1rt0yUcHI3lY4QnR2m8IaVnAWDP7+h2DMUZL4qGXh5Z/O2PSsjLZAX4chjalmbmXBxZOy99tEmnRsAy8V6ZPT+dhXqvJw8LmrcdgvB4iaRGwDMKWVddn/fzMF3LBQkvqOIJ/dE0cVq9B+iUdjVY5Q1lYx/U9nq5S73CifB9mCovaQhd1D03LtW27qzq2qJ8jASsxaG3Xh7u4Asr+mMAivUZ94z4mE6mpvpSeSsI6EyNvtwnXAbHBHsFqkeZAo9vWZ7tF7G0QwzpSjqv95XzZ85XVsKy+Tp5SdCyIGFbWUxqsQ2TVOv0nhYUK8q7parZRE+XsYlg7wPMYrO/D87jbrsMpfjfs9+17YmU5mnlKkwLWQAgL9pSiNY83o5JShv9W5cbhguwAimFtN5cdYZL0r9GCekrCovy3jm31VPdnfVDt0m8hrKdNkjSVng7P1/+FwyI2W/SfRknlzWxDCtZYDtbDU4ONyuDn8ZV/prBw/23djlMr1WFN6LOxxLBSX8gGw3VMtqvYNcJ/W0+rDarDmtJ7CL/Ecxa+mycdjGsMFua/tbGEXXFYs8yGS14N/paBhede6wRWyor0SbpKpw7EMXWRxWMgTEoDqoGRiOsYw0oPK6C6hGp7SsfAiTziDD5kVQKjdXZyAHyTbnz1Ve4dzknfmjCF32SNDkBmz+5P1FVeG1Kbe6MUfsWpJvtE7sBfB2VZmSp38D/As57Gwm70SWbVCPS9XJW70vSAWwpvhzGTM9Plxj3+va/wBosJfA7IQFzQuvD3mjNsWCbTNqJAZPb2fjK+npm09sLN5pD/tquwmw3YrjqApn3I230UFLvAOntd3QLNAHD4fbEo0htS9oJDH7psYSmZOEA3vW/hpIXcWWtu0RlKO1Far+LCcADtoxBPWmiKDw48aUHC6its/YMnpoEw00LSOoWcWeuvzEGopLAYztEZmKxCsxbhwKVeumXPQLJUboMNuUeQct3dNzatAN0r6eO1UM1GyefQsbL0UfTyUsbcDdC6oQSfkpbVVPmAI+YU/sUbpHT6uQ2Z9a4xsCZU1H/LzqTicbjiW2kyHUMC45Z8fEPqk1TTf8uZkwbCQjxx2tE1zMK6Ek8GSbuHarLipQZLiSkeX9oE65CGtcaeDIL179VkNeCdFDkVDdSMnya4HgBYD2mZbttXnBV/Q2FcARwIjt70fgLCVLoJaVh/6hJWo4aarAQ7mYbioepBLslHBz+BFe4CwCepYKw8mcNthdLKuLWCcwrrxjnqTod8lN61BC4eD4+edLDdXZ45w5m0IK0TWCF5IOKzf2/0bKetmsjE1u05e7SmzfrgdjyTZgcM1oFG1evUVTwbfiZkFVe1IGlR55Tejnd1XZPZ6ScdhvvUakQ9TJpRclYuH6U2xM1FGwVQlvUTWbV22AR/eBAM/v08589R9pxSiT1fycJuKGHAjZPScHM5EKlDePw5PNIQ0FSqQz5KS2si5ykNjlAG/4z/Oiof6votty9nyZBWfE4pdUypvz3DsNbU97UdlaqlczlWaM0zYZ4mebjcIHERsMjEot7pKWZmW0jCQjWDIcdTGh7xFH6XgbUhjkNv4cVlJWBNZFmxltPpCbgZS+mzgYHBwlba9WQjmEqwhtKwkLSmAk8phutBK4WVVryatkm3LVSA9SXPCnUQZyIDLraN7k4rgZXWu/5iZns8KnQtpjlgoQPXpkDNj7RnpfP4KUSwrpg9Hn/ojDqe0mUeVqhSM+OfU0qmqqeocbhO5qvTmXyeUUcVWHL5KF9aMYUD/MyUO5xomJJnZGDSUuac0nE+VmARcMMwHB0CKFHfEevyR6jSEJt7eQOqL7O6qxCtHXVQTXKGVvELWovcsFaAtLbQrgGgeEMQHVNTVuHLphMvfwD15TWqXAm3T2Mum0RadUXOoR6+AGuRldaB6Qmhyu7BOVvysRSZsl4RFiitPdPbHRKbWy9AyaehSFV5+hIsQFprtrR+8KINUE00FHni6Mzz3pDWHDgG48zfbn4AqomOGptR8uajvK7YDpQOdUe8AevyniJb78feqzFgSuvicbakbLIlH2RWLvr0Ph+9DGvMlFYWSNr8AVzys7Yip/YsXmYFdcWQSxIwdyPVXdkepaJn7x/eGwFIC931AFonluh2qpiVh+/Aghqu6JMHG4YjMJOC3XxFzMoTz/tlaaV7oi/gmufENCdpmo9ypZXuO9megeSBShzSwnPhz96ced6vSGsIV2QIS2mmI/340kmdc0oHo3dhgb18rH6F48rAwptlf9auPgrEB3SfCIkO6w8I67DG19ZHVKjWWFhJw4G6UYTkfvvt+oeAdaaO2Nof0ofOaJiPolE4Z6UgP0GmNJrAol+7hVgPRJvCO2t+h3IQSlz3gZZ1/kWy+iF6IDrmo1S3AboaYSlleEqfJyiS05+O+SixBYdxuc1N4FbeH4GHzhQxPt9mNRUL9Xw5ZX3w1+SQXKiaqGU+Sk/JLKWej7uTf8N3WHjr/f55/DLj1lq8tGH6NqthTqlumMcYFF1av5CPznNqVQyroNL6xXxUelUuhlVQaS1+NW2Qk5YErEJK61fzUVlpScDyBgWEtXo/bRjkvsPKwBprn49KSksG1qh40hr+etogIy0ZWMWT1q/no3LSkoJVOGm9n4+uXvk7SMEqmrQ+3hfW/JU/hBysgklr/IekDWJpycFCm850md65f/zpu7CmesFavnb3kITFyEoUhTV9cdUpC2uqE6yvF6dEWViFktabi2hRY4EpLWlYRZLWmznpx6t3W2lYRZLW4JfLWLLSkoc11WUcStTnxu/CEk2L/9dq1ugPyUdF9f0csIZazFqfbyyocsAqVC//VVqfgzeunwdWoXr5s5dG4lB6kTsZvQerWDaRef5Zfprnjj5YvAerYDaR+XIo38EfDb/z3qEGyxW5VjjngVVom0gVVVRRRRVVVFFFFVVUUUUVVVRRRRVVVFFFFSULw0qCccig2etEjyBxGl2D/dP3YB6gY7gN53EikdPvQud7tIALJFc2mN+Nv2bBYfKuZHT7z/O36o4teTIz9ogk8Hwzo0E8WaNNHqRg089b77tZYlafc4VHOMApDR3WozxM/JFOyVd9OCz8Pdqcd9XsSJzSgv9q4KQSs5H5/fUeBxbwDJyWw70C8UkxMMljYuiHj7s+9OfNC8vs098qcf6P64N/KES/Cb2DDhcWdZku+B2E/AzgSRQG8+kUxKd0X4TVqvsvwGr7nGeAu4y34JhcWDjNBnyFNnBIOaFtjDE5Pgz4cTv5YLUAEYhhkb+aOtmFxQp7jzb7PfJYkbS6AGYHuBikVPMVWBArCVjoVzeBybTls6PDh+XQszT3vXX+1961LUkKwlC5KSDoj/T/f9/2TCvkhqJbvbUP8jQ9XZJwkpOE0CX8riEYSr1EBUfMewUsO79ugbWLNsRQP1NCWqsQAvy8v+GrKEK+15RfP3e+BKSkHwQv2t+RHGVSVyoYYt4rYKXXLbB0uX2L8xA4zTpuVQS7QsLDKKxXzGcIt/+Fz3onxCKIcub0DRIV4orN6z+jyvsMLYAFQ0+I+qeQND1g7aKzZrnbOiGS/V4cq8BtGx6nLIX0qqq7Uu/qmSdNwb7u1Sj/9sd1FsOslEIpWNUQrjw8qXOw5uL8ivIwU2NvxFJRLErJQx5B50aR3XrgZP0oMLZuttIlto0iezrAsmLqsPMZWGMNq4kiM8tcJlsiAtYE9VrkJDtSKywvVhgnObdWeamaQl8EK8qZw569cjhV0ROpl20jcw/9YKVGDW6IGTyvaOdWQaOqUkl6S2kHWObmLX9AdIkSlBvHUxKwEvSPufFevpGsaEXli6tkm3kxCcLYIpmiA6z5detdsFB0ATwTCXvID3REDlYt9ixUnG5RHa4T9sqhXrCwhT7Psk6C7ueE6TvAolVK50CiiaFYccLqEpzwBjstBnOpefVgwAwvypd5N1/jvqNgYDOCh1wB6x4LIwpS+hZYuPGgIZHnY7BK2bPpM++ygqXLGlHKjML8XwMLiy6hw/89WBFNr47Bmkq431xFL7vHUB4nxEsr8OlrYBkcEiJa2zlYSwssNw3DBRrmAtYGUky0+JsIFTLODOkfgOWwaI0MlU/BmmSw5swaAccBPhVBm6us8260gHVYyISZu+63AnwRHbcWtYKGmmhNylDRIljzcbNYKB0AIp8/VVHDYNfZP6pN4ciX3QFWEDfonSx8yVcy047R3vU3aMdWuw68LE6NoEWKUlc9NROa+/aGsdFs7AArtVqdPSzkY0TdWy93dVesiObePYq7S7AVzLhyIK1I4PxO2BbJN253gLXI7W+79rCwYagoG2DCK611VvlLWdZ6aWykLZqQNGtW+l2bCsBAPV0HqZ3yrqfDHRbuhlJSB7gu1RKwaksn8ba0KxvMkbZoUBJOuLFlUTJpU0Ho9hyABYSkfWnZHbVo7IHoT1VQlzprftpj2N4w8q03cJTPPcY6sWYriksLyR/QBQ6oUFtePWBpB48Ll3cc9uq4+RcPRG9IgK2/WfR7P5Nn1uaEe8PAiIjaUi4EZCBSLBm8WEUz5bC+zszbCVajkg4dB9HwsDsgQ40HzueFrsPIs1M+Zw5uLax4CpBNCiUD1JjO1gXWcPHAwoqH4xkbarlwFIbD4IWjMCwy4xl8rd6iWLUFwsM+sKy6BFYUs7omhoru7NAPgVXjYM2IjcOw1VKRE/roiPWAz+kD83aCBdNMB1iy6BKRXfuUG9cnuJ+VhTJRBNzzUgQzZCXfaiv3MEaiUydYgw39YNlGcZ2or9vU+cMQmv4W8DMcptbYnGDXIFK/i41NCillesF6/9e1QkuThalRqdYndULetcauHjwqZfGvltZJMk/AnqZJDPJr40jAYPP2g4XPMOm67o8x+99GsvHL3fvels8M4f4M3xiTN/+hVs94xjOe8YxnPOMZz3jG7/gDo5CgzsMwsz4AAAAASUVORK5CYII=",
+  "modules": [
+    {
+      "id": "rtm",
+      "number": "01",
+      "title": "RTM & Territorio",
+      "tagline": "Llegar mejor. Vender mejor.",
+      "description": "Visitas, frecuencia, cobertura y carga de vendedores para priorizar la ejecución comercial.",
+      "phase": "Prioridad inicial",
+      "color": "#1e3875"
+    },
+    {
+      "id": "gerencia",
+      "number": "02",
+      "title": "Dirección Comercial & OKR",
+      "tagline": "Un objetivo. Decisiones medibles.",
+      "description": "Conectar objetivos de crecimiento con ventas, cobertura y servicio.",
+      "phase": "Acompañamiento gerencial",
+      "color": "#9a7315"
+    },
+    {
+      "id": "ventas",
+      "number": "03",
+      "title": "Ventas & Pedidos",
+      "tagline": "De la oportunidad al pedido.",
+      "description": "Ventas netas, evolución, cumplimiento y pedidos pendientes de entrega.",
+      "phase": "Desarrollo comercial",
+      "color": "#24608d"
+    },
+    {
+      "id": "clientes",
+      "number": "04",
+      "title": "Clientes 360",
+      "tagline": "Conocer. Retener. Reactivar.",
+      "description": "Cartera comercial, recompra, clientes sin compra y deuda vencida.",
+      "phase": "Evolución propuesta",
+      "color": "#527347"
+    },
+    {
+      "id": "inventario",
+      "number": "05",
+      "title": "Inventario & Disponibilidad",
+      "tagline": "El repuesto correcto, a tiempo.",
+      "description": "Disponibilidad, cobertura, rotación y capital inmovilizado por familia.",
+      "phase": "Evolución propuesta",
+      "color": "#8c642a"
+    },
+    {
+      "id": "margen",
+      "number": "06",
+      "title": "Margen & Precios",
+      "tagline": "Crecer con rentabilidad.",
+      "description": "Margen ponderado, descuentos y oportunidades de revisión de precios.",
+      "phase": "Evolución propuesta",
+      "color": "#52627d"
+    },
+    {
+      "id": "calidad",
+      "number": "07",
+      "title": "Cuadre & Calidad",
+      "tagline": "Confiar antes de decidir.",
+      "description": "Conciliación de cifras, trazabilidad y excepciones que requieren revisión.",
+      "phase": "Control transversal",
+      "color": "#346e71"
+    }
+  ],
+  "source": "https://agromatic.com.bo/",
+  "brand": {
+    "blue": "#1e3875",
+    "yellow": "#ffe500",
+    "background": "#f4f6f9"
+  }
+}
