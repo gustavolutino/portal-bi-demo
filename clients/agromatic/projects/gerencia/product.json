@@ -1,0 +1,52 @@
+{
+  "id": "gerencia",
+  "number": "02",
+  "title": "Dirección Comercial & OKR",
+  "tagline": "Un objetivo. Decisiones medibles.",
+  "description": "Conectar objetivos de crecimiento con ventas, cobertura y servicio.",
+  "phase": "Acompañamiento gerencial",
+  "color": "#9a7315",
+  "client": "AGROMATIC",
+  "owner": "Gustavo Lutino | Arquitectura Analítica",
+  "version": "4.0.0",
+  "entrypoint": "../../dashboard.html?module=gerencia",
+  "dataMode": "synthetic",
+  "kpis": [
+    {
+      "label": "Avance conjunto de KR",
+      "type": "percent",
+      "definition": "Media simple de 3 KR; cada avance se limita a 100 %"
+    },
+    {
+      "label": "Crecimiento de ventas YTD",
+      "type": "signedPercent",
+      "definition": "Mismos meses respecto al año anterior"
+    },
+    {
+      "label": "Ventas YTD",
+      "type": "money",
+      "definition": "Enero a mes de corte"
+    },
+    {
+      "label": "Cobertura de atención",
+      "type": "percent",
+      "definition": "Clientes visitados / cartera asignada"
+    },
+    {
+      "label": "Pedidos completados",
+      "type": "percent",
+      "definition": "Entregados / pedidos emitidos del mes"
+    },
+    {
+      "label": "Margen bruto del mes",
+      "type": "percent",
+      "definition": "Venta neta menos costo / venta neta"
+    }
+  ],
+  "method": [
+    "Objetivo propuesto: crecimiento comercial con cobertura y servicio. No constituye un objetivo aprobado por AGROMATIC.",
+    "Metas demo: crecimiento YTD 10 %, cobertura mensual 85 %, pedidos completados 90 %. Pesos iguales, avance acotado entre 0 y 100 %.",
+    "El KPI informa desempeño; el KR combina indicador, meta y horizonte. El objetivo se valida con gerencia."
+  ],
+  "sharedEngine": "../../metrics.js"
+}

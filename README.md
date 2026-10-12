@@ -17,3 +17,10 @@ Release vigente: 3.0.0. Se conserva 2.0.3 como versión anterior inmutable. Publ
 La animación respeta la preferencia de movimiento reducido y ofrece un control manual. Los filtros y las fórmulas mantienen la lógica de la versión anterior.
 
 © Gustavo Lutino. La disponibilidad pública no otorga una licencia de reutilización.
+
+
+## Edición AGROMATIC · 4.0.0
+
+La entrada principal abre ahora la personalización AGROMATIC en `clients/agromatic/`. RTM es la prioridad inicial; siete productos y 54 KPI utilizan datos ficticios. Identidad azul/amarillo/blanco, proyectos por producto y reglas documentadas. Ver [documentación AGROMATIC](clients/agromatic/README.md).
+
+La edición personal anterior se conserva en `personal-index.html`; sus releases 2.0.3 y 3.0.0 permanecen disponibles.

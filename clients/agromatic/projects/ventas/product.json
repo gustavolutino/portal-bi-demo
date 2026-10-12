@@ -1,0 +1,62 @@
+{
+  "id": "ventas",
+  "number": "03",
+  "title": "Ventas & Pedidos",
+  "tagline": "De la oportunidad al pedido.",
+  "description": "Ventas netas, evolución, cumplimiento y pedidos pendientes de entrega.",
+  "phase": "Desarrollo comercial",
+  "color": "#24608d",
+  "client": "AGROMATIC",
+  "owner": "Gustavo Lutino | Arquitectura Analítica",
+  "version": "4.0.0",
+  "entrypoint": "../../dashboard.html?module=ventas",
+  "dataMode": "synthetic",
+  "kpis": [
+    {
+      "label": "Ventas netas YTD",
+      "type": "money",
+      "definition": "Acumulado enero a mes seleccionado"
+    },
+    {
+      "label": "Ventas netas del mes",
+      "type": "money",
+      "definition": "Bruto menos descuento"
+    },
+    {
+      "label": "Cumplimiento YTD",
+      "type": "percent",
+      "definition": "Venta acumulada / meta acumulada demo"
+    },
+    {
+      "label": "Variación YTD vs anterior",
+      "type": "signedPercent",
+      "definition": "Comparación del mismo período"
+    },
+    {
+      "label": "Pedidos del mes",
+      "type": "number",
+      "definition": "Pedidos emitidos del mes"
+    },
+    {
+      "label": "Pendientes de entrega",
+      "type": "number",
+      "definition": "Pedidos del mes aún no completados"
+    },
+    {
+      "label": "Ticket por pedido",
+      "type": "money",
+      "definition": "Venta neta / pedidos"
+    },
+    {
+      "label": "Servicio de pedidos",
+      "type": "percent",
+      "definition": "Pedidos entregados / emitidos"
+    }
+  ],
+  "method": [
+    "YTD acumula desde enero; los KPI mensuales usan solo el corte elegido. Zona, asesor y familia se aplican a ambos.",
+    "La fact demo resume cliente y mes. El control de pedidos muestra cantidades agregadas, no seguimiento transaccional de documentos reales.",
+    "Pedido pendiente = emitido menos entregado en el mismo mes. No incluye arrastre de períodos anteriores."
+  ],
+  "sharedEngine": "../../metrics.js"
+}

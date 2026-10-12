@@ -1,0 +1,63 @@
+{
+  "id": "inventario",
+  "number": "05",
+  "title": "Inventario & Disponibilidad",
+  "tagline": "El repuesto correcto, a tiempo.",
+  "description": "Disponibilidad, cobertura, rotación y capital inmovilizado por familia.",
+  "phase": "Evolución propuesta",
+  "color": "#8c642a",
+  "client": "AGROMATIC",
+  "owner": "Gustavo Lutino | Arquitectura Analítica",
+  "version": "4.0.0",
+  "entrypoint": "../../dashboard.html?module=inventario",
+  "dataMode": "synthetic",
+  "kpis": [
+    {
+      "label": "Valor de inventario",
+      "type": "money",
+      "definition": "Stock × costo unitario; foto mensual"
+    },
+    {
+      "label": "Disponibilidad SKU-zona",
+      "type": "percent",
+      "definition": "Posiciones con stock / posiciones evaluadas"
+    },
+    {
+      "label": "Quiebres SKU-zona",
+      "type": "number",
+      "definition": "Combinaciones producto-territorio sin stock"
+    },
+    {
+      "label": "Cobertura ponderada",
+      "type": "days",
+      "definition": "Valor de stock / demanda diaria valorizada"
+    },
+    {
+      "label": "Rotación mensual",
+      "type": "decimal",
+      "definition": "Costo despachado / inventario promedio"
+    },
+    {
+      "label": "Capital sin movimiento",
+      "type": "money",
+      "definition": "Stock con 180 días o más sin movimiento"
+    },
+    {
+      "label": "Alertas de reposición",
+      "type": "number",
+      "definition": "Stock inferior a demanda durante plazo de reposición"
+    },
+    {
+      "label": "Plazo medio de reposición",
+      "type": "days",
+      "definition": "Media de plazos demo por SKU-zona"
+    }
+  ],
+  "method": [
+    "Se usa una foto mensual de stock; nunca se suman existencias de meses distintos.",
+    "Posición = SKU × territorio. El mismo SKU puede contar en varias zonas; no se presenta como número de SKU únicos.",
+    "Reposición sugerida = máximo de cero y demanda mensual × plazo/30 menos stock. No incorpora tránsito ni stock de seguridad: requiere validación operativa.",
+    "Sin movimiento sustituye al vencimiento como foco para repuestos y maquinaria. Los plazos y demanda son ficticios."
+  ],
+  "sharedEngine": "../../metrics.js"
+}
