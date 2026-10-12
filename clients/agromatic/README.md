@@ -57,3 +57,8 @@ Capacidad de referencia del configurador: 24–40 horas/mes; no es un compromiso
 `node tests/metrics.cjs`
 
 Incluye 378 combinaciones producto/mes/territorio, comprobaciones de filtros, YTD, ratios ponderados, retención sin base, inventario por corte, conciliación y ausencia de NaN/Infinity. No exige librerías externas. Los ocho grupos de pruebas se ejecutan desde cualquier directorio.
+
+
+## Automatización inicial
+
+Fuente demo versionada → validación y capas de archivos → pruebas KPI → paquete → despliegue desde main. Consultar `../../automation/README.md` y la nueva página `arquitectura.html`. El reporte del paquete muestra el corte de datos y la ejecución real que lo generó.
