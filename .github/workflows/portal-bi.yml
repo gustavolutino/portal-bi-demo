@@ -1,0 +1,52 @@
+name: Portal BI - Validar y publicar
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: portal-bi-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Probar rechazos de calidad
+        run: node automation/test-pipeline.cjs
+      - name: Procesar fuente, validar KPI y preparar portal
+        run: node automation/pipeline.cjs
+      - name: Conservar evidencia del proceso
+        uses: actions/upload-artifact@v4
+        with:
+          name: pipeline-evidence
+          path: .build/
+          include-hidden-files: true
+          retention-days: 14
+      - name: Configurar Pages
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        uses: actions/configure-pages@v5
+      - name: Preparar artefacto publicable
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+  deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publicar version validada
+        id: deployment
+        uses: actions/deploy-pages@v4

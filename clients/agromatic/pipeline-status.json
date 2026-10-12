@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "mode": "synthetic",
+  "status": "validated",
+  "builtAt": "2026-10-12T05:00:05.599Z",
+  "cutoff": "2026-09-30",
+  "runId": null,
+  "commit": null,
+  "sourceSha256": "a5720ee7aa8f13b39de57e586a7ccf88072e9218d46a610a394b0a6e669dcf19",
+  "datasetSha256": "59ec63a4cb56cdf7898997298998f430555e50ab5b5ed577578f7236e9a28178",
+  "counts": {
+    "clients": 72,
+    "commercial": 648,
+    "inventory": 432,
+    "quality": 54
+  },
+  "products": [
+    {
+      "id": "rtm",
+      "title": "RTM & Territorio",
+      "kpis": 8,
+      "charts": 2
+    },
+    {
+      "id": "gerencia",
+      "title": "Dirección Comercial & OKR",
+      "kpis": 6,
+      "charts": 2
+    },
+    {
+      "id": "ventas",
+      "title": "Ventas & Pedidos",
+      "kpis": 8,
+      "charts": 2
+    },
+    {
+      "id": "clientes",
+      "title": "Clientes 360",
+      "kpis": 8,
+      "charts": 2
+    },
+    {
+      "id": "inventario",
+      "title": "Inventario & Disponibilidad",
+      "kpis": 8,
+      "charts": 2
+    },
+    {
+      "id": "margen",
+      "title": "Margen & Precios",
+      "kpis": 8,
+      "charts": 2
+    },
+    {
+      "id": "calidad",
+      "title": "Cuadre & Calidad",
+      "kpis": 8,
+      "charts": 2
+    }
+  ],
+  "checks": [
+    "Fuente marcada como sintética",
+    "Claves únicas y relaciones válidas",
+    "Secuencia visitas-pedidos-entregas",
+    "Venta neta y cartera conciliadas",
+    "Inventario por foto mensual",
+    "Referencia monetaria del lote de control",
+    "378 combinaciones de KPI y 8 grupos de pruebas"
+  ],
+  "stages": [
+    {
+      "name": "Bronze",
+      "description": "Copia íntegra de la fuente demo versionada"
+    },
+    {
+      "name": "Silver",
+      "description": "Validación de tipos, claves, referencias y conciliación"
+    },
+    {
+      "name": "Gold",
+      "description": "Dataset de consumo de los siete productos analíticos"
+    },
+    {
+      "name": "Publicación",
+      "description": "Paquete estático; despliegue solo tras validar en main"
+    }
+  ]
+}

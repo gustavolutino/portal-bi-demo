@@ -1,0 +1,3 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),{validate}=require('./pipeline.cjs');const d=JSON.parse(fs.readFileSync(path.join(__dirname,'sources/agromatic-demo.json')));assert(validate(d));
+for(const mutate of [x=>x.synthetic=false,x=>x.commercial.push(x.commercial[0]),x=>x.commercial[0].client='HUERFANO',x=>x.commercial[0].sales+=100,x=>x.commercial[0].delivered=x.commercial[0].orders+1,x=>x.stock[0].stock=-1,x=>x.quality[0].source+=100]){const bad=structuredClone(d);mutate(bad);assert.throws(()=>validate(bad));}
+console.log('PASS: 7 fallos deliberados bloqueados; fuente correcta aceptada.');

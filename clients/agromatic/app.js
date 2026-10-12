@@ -4,7 +4,7 @@ const key='gl:agromatic:demo:v1',actionKey='gl:agromatic:actions:v4';const page=
 try{const pref=localStorage.getItem('gl:agromatic:motion');if(pref)motion=pref==='on';}catch{}
 function applyMotion(){document.documentElement.dataset.motion=motion?'on':'off';document.querySelectorAll('button[data-motion]').forEach(b=>{b.textContent=motion?'Reducir movimiento':'Activar movimiento';b.setAttribute('aria-pressed',String(!motion));});}applyMotion();document.querySelectorAll('button[data-motion]').forEach(b=>b.onclick=()=>{motion=!motion;applyMotion();try{localStorage.setItem('gl:agromatic:motion',motion?'on':'off');}catch{}});
 let signed=false;try{signed=sessionStorage.getItem(key)==='admin';}catch{}
-function destination(){const next=new URLSearchParams(location.search).get('next')||'dashboard.html?module=rtm';return /^(dashboard|proyectos|precios)\.html(?:\?module=(rtm|gerencia|ventas|clientes|inventario|margen|calidad))?$/.test(next)?next:'dashboard.html?module=rtm';}
+function destination(){const next=new URLSearchParams(location.search).get('next')||'dashboard.html?module=rtm';return /^(dashboard|proyectos|precios|arquitectura)\.html(?:\?module=(rtm|gerencia|ventas|clientes|inventario|margen|calidad))?$/.test(next)?next:'dashboard.html?module=rtm';}
 if(page!=='login'&&!signed){location.replace('index.html?next='+encodeURIComponent(location.pathname.split('/').pop()+location.search));return;}
 if(page==='login'){
  if(signed){location.replace(destination());return;}
